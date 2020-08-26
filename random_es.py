@@ -28,7 +28,6 @@ def posiciones(jugadores, orden):
     match = []
     contador = 0
     while contador < len(jugadores):
-    # for jugador in jugadores-1:
         posicion = input('Posicion: ')
         jugador_1 = jugadores[orden[contador]]
         jugador_2 = jugadores[orden[contador +1]]
